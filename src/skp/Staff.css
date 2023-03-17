@@ -1,0 +1,24 @@
+.tab{
+	-fx-border-width: 2px;
+	-fx-border-radius: 0px 0px 20px 20px;
+	-fx-background-radius: 0px 0px 20px 20px;
+	-fx-border-style:solid ;
+	-fx-border-color: #d02328;
+}
+
+.root{
+	-fx-background-color: #EAEEF4;
+}
+
+.tab1{
+	-fx-border-color: #d02328;
+	-fx-border-style:solid ;
+}
+
+.hover_border:hover{
+	-fx-border-color:#fff;
+	-fx-border-width:2px 2px 2px 2px;
+	-fx-background-color: #d02328;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+}

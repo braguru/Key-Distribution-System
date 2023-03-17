@@ -1,0 +1,64 @@
+.root{
+	-fx-background-color: #EAEEF4;
+}
+.Dash_btn{
+	
+	-fx-border-width: 2px;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-style:solid ;
+	-fx-border-color: #d02328;
+}
+
+.welcome{
+	-fx-background-color: #d21404;
+	-fx-border-width: 2px;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-style:solid ;
+	-fx-border-color: #d02328;
+}
+
+.vpane{
+	-fx-border-width: 2px;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-style:solid ;
+	-fx-border-color: #d02328;
+}
+
+.rm_border{
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-style:solid ;
+	-fx-border-color: #d02328;
+}
+
+.logout{
+	-fx-border-width: 2px;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-style:solid ;
+	-fx-border-color: #d02328;
+}
+
+.hover_border:hover{
+	-fx-border-color:#fff;
+	-fx-border-width:2px 2px 2px 2px;
+	-fx-background-color: #d02328;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+}
+
+.pane_1{
+	-fx-background-color: #fff;
+	-fx-border-width: 2px;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-style:solid ;
+	-fx-border-color: #fff;
+}
+
+.hover_fade:hover{
+	-fx-background-color: #e2e2e2 !important;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="929.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, red, orange);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <AnchorPane layoutX="512.0" layoutY="47.0" prefHeight="419.0" prefWidth="385.0" style="-fx-background-radius: 20 20 20 20; -fx-border-radius: 20 20 20 20; -fx-border-style: solid; -fx-border-color: #FBFBF9;">
+         <children>
+            <TextField fx:id="uname" layoutX="50.0" layoutY="126.0" prefHeight="34.0" prefWidth="282.0" promptText="User Id" style="-fx-background-color: none; -fx-prompt-text-fill: white; -fx-border-color: white; -fx-border-width: 0px 0px 1px 0px; -fx-text-fill: white;">
+               <opaqueInsets>
+                  <Insets bottom="1.0" />
+               </opaqueInsets>
+            </TextField>
+            <CheckBox fx:id="checkbox" layoutX="51.0" layoutY="254.0" mnemonicParsing="false" onMouseClicked="#check_clicked" text="Show Password" textFill="WHITE" />
+            <Button layoutX="53.0" layoutY="312.0" mnemonicParsing="false" onAction="#sign_in" prefHeight="33.0" prefWidth="282.0" style="-fx-background-color: #d02328; -fx-background-radius: 20;" styleClass="sign" stylesheets="@login.css" text="Sign In" textFill="WHITE" />
+            <Label layoutX="164.0" layoutY="47.0" style="-fx-font-family: barlow  condensed medium;" text="Sign In" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="passwd" layoutX="50.0" layoutY="200.0" prefHeight="34.0" prefWidth="282.0" style="-fx-prompt-text-fill: white; -fx-background-color: none; -fx-border-color: white; -fx-border-width: 0px  0px 1px 0px; -fx-text-fill: white;">
+               <opaqueInsets>
+                  <Insets bottom="1.0" />
+               </opaqueInsets>
+            </TextField>
+            <PasswordField fx:id="pwd" layoutX="50.0" layoutY="200.0" prefHeight="34.0" prefWidth="282.0" promptText="Password" style="-fx-border-width: 0px  0px 1px 0px; -fx-background-color: none; -fx-border-color: white; -fx-prompt-text-fill: white; fx-text-fill: white;" />
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="20.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome " wrappingWidth="133.9423828125">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="20.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This program helps to digitalize and secure the collection of keys in the halls" />
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="20.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This progam will help facilitate the key distribution system" />
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="20.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It will also reduce the rate of theft cases in the hall" />
+   </children>
+</AnchorPane>
